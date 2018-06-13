@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
     "lib/ejabberd_rest_client.rb"
   ]
   s.require_paths = ["lib"]
-  s.add_dependency("json", '~> 1.8', '>= 1.8.3')
+  s.add_dependency("json", '~> 2.1', '>= 2.1.0')
   s.extra_rdoc_files = ["README.md"]
 end
