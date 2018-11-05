@@ -14,7 +14,7 @@ class EjabberdRestClient
 		begin
 			http = Net::HTTP.new(url.host, url.port)
 			request = Net::HTTP::Post.new(url.path)
-			request.basic_auth @jid, @password
+			request.basic_auth @jid, @password if @jid
 			request.body = data.to_json
 			request["Content-Type"] = 'application/json'
 			request["Accept"] = 'application/json'
