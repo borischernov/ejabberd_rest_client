@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{ejabberd_rest_client}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.date = %q{2018-06-13}
   s.summary = %q{REST client for ejabberd}
   s.author = "Boris Chernov"
