@@ -23,6 +23,7 @@ class EjabberdRestClient
 			JSON.parse("[#{response.body}]").first
 		rescue
 			$logger.error("Exception while accessing ejabberd API: #{$!}")
+			nil
 		end
 	end
 end
